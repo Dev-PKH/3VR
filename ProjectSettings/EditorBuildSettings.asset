@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/3VRProject/Scene/room.unity
-    guid: 3f762694427adcc49b0ffda1ba16aa6b
+    path: Assets/3VRProject/Scene/3VR.unity
+    guid: 590a7f5865abe9d40a763a0689dd8fbf
   - enabled: 1
     path: Assets/3VRProject/Scene/Bathroom.unity
     guid: b91ce37687881914cbc854ac8e91c352
