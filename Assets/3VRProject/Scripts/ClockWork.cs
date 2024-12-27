@@ -34,10 +34,12 @@ public class ClockWork : MonoBehaviour
 
     private void SetTime()
     {
+        // pivot을 중심으로 회전
         hourHand.localRotation = Quaternion.Euler(0, curTime * 360 / 43200, 0);
         minHand.localRotation = Quaternion.Euler(0, curTime * 360 / 3600, 0);
         secHand.localRotation = Quaternion.Euler(0, curTime * 360 / 60, 0);
 
+        // 침들이 시계와 수평하도록 방향을 설정
         hourHand.Rotate(90.0f, hourHand.localRotation.y, -90.0f, Space.World);
         minHand.Rotate(90.0f, minHand.localRotation.y, -90.0f, Space.World);
         secHand.Rotate(90.0f, secHand.localRotation.y, -90.0f, Space.World);

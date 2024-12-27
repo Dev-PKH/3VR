@@ -8,16 +8,6 @@ public class ChangeScene : TeleportationAnchor
 {
     public int sceneIndex;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 	protected override bool GenerateTeleportRequest(IXRInteractor interactor, RaycastHit raycastHit, ref TeleportRequest teleportRequest)
 	{
         SceneManager.LoadScene(sceneIndex);
